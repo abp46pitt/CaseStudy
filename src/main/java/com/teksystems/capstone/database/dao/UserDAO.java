@@ -9,4 +9,8 @@ import com.teksystems.capstone.database.entity.User;
 public interface UserDAO extends JpaRepository<User, Long> {
 
 	public User findById(Integer id);
+	
+	public User findByEmail(String email);
+	
+	public <S extends User> S save(S user);
 }

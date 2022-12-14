@@ -1,0 +1,41 @@
+.speech-bubble {
+	position: relative;
+	background: #bec8da;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.719em solid transparent;
+	border-right-color: #bec8da;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -0.359em;
+	margin-left: -0.719em;
+}
+
+body {
+	background-color: rgb(33,52,83) !important;
+}
+
+.container {
+	background-color: rgb(240,240,240) !important;
+}
+
+.custom-color{
+	background-color: rgb(45,71,113) !important;
+}
+
+.nav-link{
+	color: white !important;
+}
+
+.custom-button{
+	background-color: rgb(45,71,113) !important;
+	color: white !important;
+}
